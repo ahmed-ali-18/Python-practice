@@ -2,10 +2,11 @@ from datetime import date
 a=date(2005,8,20)
 b=date(2025,5,6)
 print("no of days: ",b-a)
-
+output:  no of days:  7199 days, 0:00:00
 
 #no.of hours
 from datetime import date
 a=date(2005,8,20)
 b=date(2025,5,6)
 print("no of seconds: ",(b-a).total_seconds()/3600)
+output:  no of seconds:  172776.0
