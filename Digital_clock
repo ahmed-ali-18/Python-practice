@@ -1,0 +1,24 @@
+#Live Time
+import time
+import sys
+hours=12
+minute=0
+second=55
+while True:
+  sys.stdout.write("\r{:02d} : {:02d} : {:02d}".format(hours,minute,second))
+  sys.stdout.flush()
+  time.sleep(1)
+  second=second+1
+  if second==60:
+    second=0
+    minute=minute+1
+  if minute==60:
+    second=0
+    minute=0
+    hours=hours+1
+  if hours==13:
+    second=0
+    minute=0
+    hours=0
+output:
+12 : 00 : 56
