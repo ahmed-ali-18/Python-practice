@@ -1,0 +1,20 @@
+#string function
+a="Ali is a devloper"
+b=a.upper()
+c=a.lower()
+d=a.swapcase()
+e=a.title()
+f=a.capitalize()
+print(a)  
+print(b)
+print(c)
+print(d)
+print(e)  
+print(f) 
+output:
+Ali is a devloper
+ALI IS A DEVLOPER
+ali is a devloper
+aLI IS A DEVLOPER
+Ali Is A Devloper
+Ali is a devloper
