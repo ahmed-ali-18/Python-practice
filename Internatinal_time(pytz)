@@ -1,0 +1,7 @@
+from datetime import datetime
+import pytz #python time zone
+a=pytz.timezone("Asia/Kolkata")
+b=datetime.now(a)
+print(b)
+output:
+2026-04-29 12:42:32.280174+05:30
