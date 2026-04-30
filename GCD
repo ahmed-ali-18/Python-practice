@@ -1,0 +1,12 @@
+#GCD
+a=int(input("ENter the num1:"))
+b=int(input("ENter the num1:"))
+while (b!=0):
+  rem=a%b
+  a=b
+  b=rem
+print("GCD: {}".format(a))
+output:
+ENter the num1:60
+ENter the num1:25
+GCD: 5
