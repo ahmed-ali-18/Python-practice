@@ -1,0 +1,5 @@
+name=["ali","vipin","pratik","sandeep","naveen"]
+mark=[[10,20,30],[25,20,15],[18,42,30],[24,31,26],[12,14,35]]
+for i in range(5):
+  a=sum(mark[i])//3
+  print("{}. {} has avegare= {}".format(i+1,name[i],a))
