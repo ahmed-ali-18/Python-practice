@@ -1,0 +1,8 @@
+name=["ali","vipin","pratik","sandeep","naveen"]
+age=[20,24,15,7,4,3]
+res=list(zip(age,name))
+res1=sorted(res)
+p=1
+for i in res1:
+    print("{}. {} has age: {}".format(p,i[1],i[0]))
+    p=p+1
