@@ -1,0 +1,15 @@
+#Anagram
+a=input("Enter a string1:")
+b=input("Enter a string2:")
+a1="".join(i for i in a if a.isalnum())
+b1="".join(i for i in b if b.isalnum())
+print(a1)
+if(sorted(a1)==sorted(b1)):
+  print("Anagram") 
+else:
+  print("Not anagram")
+output:
+Enter a string1:god
+Enter a string2:dog
+god
+Anagram
