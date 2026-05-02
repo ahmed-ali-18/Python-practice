@@ -1,0 +1,9 @@
+#cal tax using dictionary
+name=(input("Enter you name: "))
+salary=int(input("Enter salary: "))
+des=(input("enter designation: "))
+a={'TL':10,'manager':20,'fesher':5,'dev':15}
+tax=salary * (a[des]/100)
+print(tax)
+
+
