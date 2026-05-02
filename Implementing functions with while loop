@@ -1,0 +1,56 @@
+#Implementing functions with while loop
+def sq():
+  a=int(input("Enter the Side: "))
+  print("Area of square: ",a*a)
+def cir(r):
+  print("Area of circle: ",r*r*3.14)
+def rect(a,b):
+  return a*b
+
+
+while(True):
+  print("1.Square")
+  print("2.Circle")
+  print("3.Rectangle")
+  print("4.exit")
+  choice=int(input("Enter your choice: "))
+  if choice==1:
+    sq()
+  elif choice==2:
+    cir(10)
+  elif choice==3:
+    res=rect(10,20)
+    print("Area of rectangle: ",res)
+  else:
+    print("Exit......")
+    break
+
+
+output:
+
+1.Square
+2.Circle
+3.Rectangle
+4.exit
+Enter your choice: 1
+Enter the Side: 10
+Area of square:  100
+1.Square
+2.Circle
+3.Rectangle
+4.exit
+Enter your choice: 2
+Area of circle:  314.0
+1.Square
+2.Circle
+3.Rectangle
+4.exit
+Enter your choice: 3
+Area of rectangle:  200
+1.Square
+2.Circle
+3.Rectangle
+4.exit
+Enter your choice: 4
+Exit......
+
