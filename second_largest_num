@@ -1,0 +1,20 @@
+#second largest number
+a=int(input("enter num1: "))
+b=int(input("enter num1: "))
+c=int(input("enter num1: "))
+if(a>b and a>c):
+  if(b>c):
+    print("second largest number is {}".format(b))
+  else:
+    print("second largest number is {}".format(c))
+elif(b>a and b>c):
+  if(a>c):
+    print("second largest number is {}".format(a))
+  else:
+    print("second largest number is {}".format(c))
+
+elif(c>a and c>b):
+  if(a>b):
+    print("second largest number is {}".format(a))
+  else:
+    print("second largest number is {}".format(b))
