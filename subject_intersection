@@ -1,0 +1,22 @@
+#subject intersection
+maths=["ali","vipin","pratik","naveen","sandeep"]
+science=["vipin","sandeep","ali","sravan","konda"]
+hindi=["naveen","sravan","ali","sandeep"]
+
+m=set(maths)
+s=set(science)
+h=set(hindi)
+#all three subjects
+all=(m&s&h)
+print(all)
+
+#two subjects
+a=m&s
+b=m&h
+c=s&h
+two=(a | b | c)-all
+print(two)
+
+#one subjects
+d=(m|s|h)-two-all
+print(d)
