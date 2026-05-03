@@ -1,0 +1,13 @@
+#monkey climbung puzzle
+x=int(input("enter building height: "))
+y=int(input("enter height that monkey jump: "))
+z=int(input("enter the height that slips the money:"))
+t=0
+h=1
+while (h<x):
+  if t%2==0:
+    h=h+y
+  else:
+    h=h-z
+  t=t+1
+print(t)  
