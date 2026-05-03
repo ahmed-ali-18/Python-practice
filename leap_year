@@ -1,0 +1,6 @@
+#leap year
+a=int(input("enter year: ")) 
+if(a%400==0 or (a%4==0 and a%100!=0)):
+  print("{} is a leap yaer".format(a))
+else:
+  print("{} is not a leap year".format(a)) 
