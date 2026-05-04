@@ -1,0 +1,9 @@
+#generate QR code
+import qrcode
+qr=qrcode.QRCode()
+a="hi i am Ali"
+qr.add_data(a)
+qr.make(fit=True)
+res=qr.make_image(fill_color="black",back_color="white")
+res.save("qr.png")
+print("QR code generated ")
