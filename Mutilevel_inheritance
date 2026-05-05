@@ -1,0 +1,21 @@
+#mutilevel inheritance
+class India:
+  def show_info(self):
+    print("This is India")
+class Tel(India):
+  def lan(self):
+    print("Telugu")
+class ap(Tel):
+  def show(self):
+    print("This is Andhra Pradesh") 
+a=India()
+b=Tel()
+c=ap()
+c.show_info()#grand parent method
+c.lan() #parent method
+c.show()
+
+output:
+This is India
+Telugu
+This is Andhra Pradesh
