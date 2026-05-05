@@ -1,0 +1,16 @@
+#simple inheritance
+class India:
+  def show_info(self):
+    print("This is India")
+class Tel(India):
+  def show(self):
+    print("This is Telangana")
+a=India()
+a.show_info()
+b=Tel()
+b.show()
+b.show_info() 
+output:
+This is India
+This is Telangana
+This is India
