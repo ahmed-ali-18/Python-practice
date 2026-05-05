@@ -1,0 +1,54 @@
+#class & object example
+country="India"
+class ace:
+  col="ACE College"
+  def give_details(self,a,b,c,d,e):
+    self.avg=(a+b+c+d)//4
+    self.name=e
+  def display(self):
+    print("Name: ",self.name)
+    print("Average: ",self.avg) 
+    print("College: ",ace.col)
+    print("Country: ",country)
+class kprit:
+  col="KPRIT"
+  def set_dim(self,a,b,c,d):
+    self.avg=(a+b+c)//3
+    self.name=d
+  def show(self):
+    print("Name: ",self.name)
+    print("Average: ",self.avg) 
+    print("College: ",kprit.col)
+    print("Country: ",country)
+
+a=ace()
+a.give_details(70,80,85,90,"Ali")
+a.display()
+a2=ace()
+a2.give_details(55,65,42,10,"sandeep")
+a2.display()
+b=kprit()
+b.set_dim(80,65,72,"vipin")
+b.show()
+b2=kprit()
+b2.set_dim(75,5,68,"naveen")
+b2.show()
+
+output:
+
+Name:  Ali
+Average:  81
+College:  ACE College
+Country:  India
+Name:  sandeep
+Average:  43
+College:  ACE College
+Country:  India
+Name:  vipin
+Average:  72
+College:  KPRIT
+Country:  India
+Name:  naveen
+Average:  49
+College:  KPRIT
+Country:  India
