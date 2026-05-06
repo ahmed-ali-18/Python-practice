@@ -1,0 +1,23 @@
+#mutliple inheritance
+class India:
+  def show_info(self):
+    print("This is India")
+class Tel(India):
+  def lan(self):
+    print("Telugu")
+class ap(India):
+  def show(self):
+    print("This is Andhra Pradesh")
+a=India()
+b=Tel()
+b.show_info()
+b.lan()
+c=ap()
+c.show_info()
+c.show()
+
+output:
+This is India
+Telugu
+This is India
+This is Andhra Pradesh
