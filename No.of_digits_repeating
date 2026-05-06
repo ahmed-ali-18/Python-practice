@@ -1,0 +1,15 @@
+a=int(input("enter a number: "))
+b={}
+count=0
+for i in str(a):
+  if i not in b:
+    b[i]=1
+  else:
+    b[i]=b[i]+1
+print(b)
+c=[i[0] for i in b.items() if i[1]>1 ]
+print(c)
+for i in c:
+  count=count+1
+print(count)  
+
