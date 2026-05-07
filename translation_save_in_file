@@ -1,0 +1,9 @@
+from googletrans import Translator
+t=Translator()
+a=input("Enter the text: ")
+b=input("Enetr the traget language: ")
+res=await t.translate(a,dest=b)
+z=res.text
+print(z)
+f=open("abc.txt",'a')
+f.write(str(z))
