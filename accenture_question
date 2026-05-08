@@ -1,0 +1,10 @@
+#question asked in accenture
+a=int(input("enter num1: "))
+b=int(input("enter num2: "))
+c=int(input("enter num3: "))
+d=[int(i) for i in str(a)]
+e=[int(i) for i in str(b)]
+f=[int(i) for i in str(c)]
+x=max(d)+max(e)+max(f)
+y=min(d)+min(e)+min(f)
+print(x+y)
